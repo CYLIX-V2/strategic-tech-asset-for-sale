@@ -7,7 +7,7 @@
 ## ❓ General Questions
 
 ### **Q: Is this a working product?**
-**A:** CYLIX V2 is an **advanced prototype** with a fully functional UI and framework. The frontend React application works perfectly and can be demonstrated immediately. The backend has mock services running. However, the core security detection engine and AI/ML components require completion (6-12 months of development).
+**A:** CYLIX V2 is an **advanced prototype** with a fully functional UI and framework. The frontend React application works perfectly and can be demonstrated immediately via video. The backend has mock services running. However, the core security detection engine and AI/ML components require completion (6-12 months of development).
 
 ### **Q: Why are you selling?**
 **A:** As a solo developer, I've successfully completed the architecture, UI, and framework (12-18 months of work). To bring this to production requires a dedicated team and resources I don't have. This is valuable for a company with development resources.
@@ -69,7 +69,7 @@ Buyer typically pays escrow fees (1-2% of sale price).
 See [TECH_STACK.md](./TECH_STACK.md) for complete details.
 
 ### **Q: Does the UI actually work?**
-**A:** Yes! The React UI is fully functional and production-ready. It currently connects to mock backend services for demonstration purposes. Can be demonstrated live via screen share.
+**A:** Yes! The React UI is fully functional and production-ready. It currently connects to mock backend services for demonstration purposes. A comprehensive demo video will be sent via email after NDA execution.
 
 ### **Q: How much work is needed to complete this?**
 **A:** Estimated 6-12 months with a dedicated development team:
@@ -112,11 +112,13 @@ These are normal for a prototype. Full security audit report available during du
 You'll get read-only access to the repository for 14-30 days for technical review.
 
 ### **Q: Is there a demo available?**
-**A:** Yes! After NDA execution, I can provide:
-- Live demo of the working UI
-- Screen share walkthrough
-- Architecture explanation
-- Q&A session
+**A:** Yes! After NDA execution, you'll receive:
+- **Pre-recorded video demonstration** of the working UI (sent via email)
+- Detailed walkthrough video showing all features
+- Architecture explanation video
+- Additional demo videos available upon request
+
+**Note:** All demos are provided as video files. No video calls required.
 
 ### **Q: What documentation is included?**
 **A:** Extensive documentation (47KB+):
@@ -145,39 +147,64 @@ You'll get read-only access to the repository for 14-30 days for technical revie
 
 ### **Q: How long does the sale process take?**
 **A:** Typical timeline:
-- Week 1: Initial contact, NDA, documentation
+- Week 1: Initial contact, NDA, documentation, demo video
 - Week 2-4: Due diligence and code review
 - Week 5-6: Negotiation and legal docs
 - Week 7-8: Closing and transfer
 
 Total: 60-75 days for serious buyers
 
+### **Q: Do you do video calls or meetings?**
+**A:** **No.** All communication is handled via:
+- ✅ **Email** (primary method)
+- ✅ **Phone** (for serious buyers when needed)
+- ❌ No video calls
+- ❌ No in-person meetings
+
+This maintains anonymity while ensuring professional communication.
+
+### **Q: How do you demo the product without video calls?**
+**A:** All demos are provided as **pre-recorded video files** sent via email:
+- Full UI walkthrough video
+- Feature demonstration videos
+- Architecture explanation video
+- Code overview video (if requested)
+
+You can watch these videos at your convenience and ask questions via email or phone.
+
 ### **Q: What happens after purchase?**
 **A:** You receive:
 - Complete source code via Git transfer
 - All documentation
-- 30 days transition support
+- 30 days transition support (email/phone)
 - Email support for technical questions
-- Code walkthrough sessions (up to 5 hours)
+- Written explanations and documentation (no video calls)
 
 ### **Q: Do you provide training?**
 **A:** Included in the sale:
-- Code architecture walkthrough
-- Documentation overview
-- Q&A sessions
+- Written documentation and guides
+- Q&A sessions via email or phone
+- Pre-recorded walkthrough videos
 - Email support (30 days)
 
-Additional training can be negotiated separately.
+All training materials are provided in written or pre-recorded format.
 
 ### **Q: What if I find issues after purchase?**
 **A:** This is an **as-is sale** with transparent disclosure of current state. No warranties are provided. However, I commit to:
 - Honest assessment of current state
 - Comprehensive documentation
-- 30 days transition support
+- 30 days transition support via email/phone
 - Answering questions about the code I wrote
 
 ### **Q: Will you sign a non-compete?**
 **A:** Reasonable non-compete terms can be negotiated as part of the sale agreement. I'm not building a competing cybersecurity platform.
+
+### **Q: Can we communicate anonymously?**
+**A:** Yes! The transaction is designed to maintain seller anonymity:
+- All communication via email or phone
+- No video calls or face-to-face meetings required
+- Professional process without identity disclosure
+- This protects both parties
 
 ---
 
@@ -220,6 +247,9 @@ Additional training can be negotiated separately.
 ### **Q: What about liability?**
 **A:** Buyer assumes all liability for use of the software. Seller provides no warranties. This is standard for technology asset sales.
 
+### **Q: Does your anonymity affect the legal process?**
+**A:** No. Legal documents can be executed with appropriate identity verification through escrow services or legal counsel, while maintaining practical anonymity in day-to-day communications.
+
 ---
 
 ## 📞 Contact Questions
@@ -238,7 +268,20 @@ Include:
 **A:** Within 24-48 hours for serious inquiries.
 
 ### **Q: Can we schedule a call?**
-**A:** Yes, after initial email exchange and NDA execution, we can schedule a video call for demo and Q&A.
+**A:** Phone calls are available for serious buyers after initial email exchange and verification. However:
+- ✅ Email is preferred for most communication
+- ✅ Phone available for important discussions
+- ❌ No video calls
+- ❌ No in-person meetings
+
+### **Q: Why no video calls?**
+**A:** I prefer to maintain anonymity while conducting a professional transaction. All necessary information can be communicated via:
+- Pre-recorded demo videos (emailed to you)
+- Comprehensive written documentation
+- Email correspondence
+- Phone calls when necessary
+
+This approach is efficient and protects both parties.
 
 ---
 
@@ -246,7 +289,13 @@ Include:
 
 **Email:** shea83409@gmail.com
 
-I'm happy to answer any questions not covered here!
+I respond to all serious inquiries within 24-48 hours via email.
+
+**Communication Methods:**
+- ✅ Email (primary and preferred)
+- ✅ Phone (available for qualified buyers)
+- ❌ Video calls (not available)
+- ❌ In-person meetings (not available)
 
 ---
 
