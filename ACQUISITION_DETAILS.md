@@ -184,35 +184,53 @@ cylix_v2/
    - Technical specifications
    - Code repository access (read-only)
 
-3. **Due Diligence** (Day 3-30)
-   - Technical review
+3. **Demo Video** (Day 3-7)
+   - Pre-recorded UI demonstration video sent via email
+   - Detailed walkthrough of functionality
+   - Architecture explanation
+   - Additional videos available upon request
+
+4. **Due Diligence** (Day 7-30)
+   - Technical review via email
    - Code inspection
    - Documentation verification
-   - Q&A sessions
+   - Q&A via email or phone
 
-4. **Negotiation** (Day 30-45)
+5. **Negotiation** (Day 30-45)
+   - All communication via email or phone
    - Final pricing
    - Terms adjustment
    - Asset transfer details
 
-5. **Legal Documentation** (Day 45-60)
+6. **Legal Documentation** (Day 45-60)
    - Asset Purchase Agreement
    - IP assignment documents
    - Escrow setup
 
-6. **Closing** (Day 60-75)
+7. **Closing** (Day 60-75)
    - Payment via escrow
    - Code transfer
    - Documentation handover
    - Transition support begins
 
+### **Communication Preferences**
+
+**Seller maintains anonymity:**
+- ✅ All communication via **email** (shea83409@gmail.com)
+- ✅ Phone calls available for serious buyers
+- ✅ **No video calls or in-person meetings**
+- ✅ UI demos provided as **pre-recorded video files**
+- ✅ Technical Q&A handled via email or phone
+
+**This protects both parties while maintaining professionalism.**
+
 ### **Post-Closing**
 
 **Included:**
-- ✅ 30 days transition assistance
+- ✅ 30 days transition assistance (email/phone)
 - ✅ Email support for technical questions
 - ✅ Documentation clarification
-- ✅ Code walkthrough sessions (up to 5 hours)
+- ✅ Written explanations and diagrams (no video calls required)
 
 **Not Included:**
 - ❌ Ongoing development work
@@ -245,6 +263,7 @@ cylix_v2/
 - Protection of proprietary information
 - Non-disclosure of transaction details
 - Mutual confidentiality obligations
+- **Seller anonymity maintained throughout process**
 
 ### **Liability Limitation**
 
@@ -267,6 +286,7 @@ cylix_v2/
 - ❌ Production database with data
 - ❌ Domain names or web hosting
 - ❌ Ongoing support beyond 30 days
+- ❌ Video calls or in-person meetings
 
 ---
 
@@ -274,9 +294,12 @@ cylix_v2/
 
 ### **Serious Inquiries**
 
-**Email:** shea83409@gmail.com
+**Email:** shea83409@gmail.com (Primary)  
+**Phone:** Available upon request for qualified buyers
 
 **Response Time:** Within 24-48 hours
+
+**Communication Method:** Email preferred, phone available for serious discussions
 
 ### **Initial Inquiry Should Include:**
 
@@ -292,11 +315,13 @@ cylix_v2/
 1. Initial email exchange
 2. NDA execution
 3. Full documentation package sent
-4. Schedule live demo
+4. Demo video emailed
 5. Code repository access granted
-6. Q&A and due diligence
+6. Q&A via email/phone
 7. Offer and negotiation
 8. Closing
+
+**Note:** All communication handled professionally via email and phone. No video calls or face-to-face meetings required.
 
 ---
 
