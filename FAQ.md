@@ -7,52 +7,43 @@
 ## ❓ General Questions
 
 ### **Q: Is this a working product?**
-**A:** CYLIX V2 is an **advanced prototype** with a fully functional UI and framework. The frontend React application works perfectly and can be demonstrated immediately via video. The backend has mock services running. However, the core security detection engine and AI/ML components require completion (6-12 months of development).
+**A:** CYLIX V2 is an **advanced prototype** with a fully functional UI and framework. The frontend React application works and can be demonstrated via **pre-recorded video**. The backend includes demo/mock services for UI development. The core engine and AI/ML features require completion.
 
 ### **Q: Why are you selling?**
-**A:** As a solo developer, I've successfully completed the architecture, UI, and framework (12-18 months of work). To bring this to production requires a dedicated team and resources I don't have. This is valuable for a company with development resources.
+**A:** The architecture, UI, and framework were developed over 12–18 months. Completing the platform to production requires a dedicated team and budget. This is best suited to a buyer with engineering resources.
 
 ### **Q: What exactly am I buying?**
 **A:** You're buying:
-- Complete source code (2.9GB)
-- Production-ready React UI
+- Complete source code (~2.9GB)
+- Production-quality React UI
 - Enterprise architecture and documentation
-- Technology foundation and frameworks
-- All intellectual property rights
-- 12-18 months of development work completed
+- Infrastructure as code (Docker/K8s/Helm/CI)
+- Compliance frameworks (GDPR/HIPAA/SOX docs)
+- Full IP rights and complete ownership transfer under MIT
 
 ### **Q: What am I NOT buying?**
 **A:** You're NOT buying:
 - An operating business
 - Customers or revenue
-- A finished, production-ready product
 - Hosted infrastructure
-- Ongoing support (beyond 30 days)
+- Post-sale onboarding/support/training
+- A finished, production-ready product
 
 ---
 
 ## 💰 Pricing Questions
 
 ### **Q: Is the price negotiable?**
-**A:** The asking price of $250,000 reflects a significant discount (47%) from the actual development costs (~$467K). There may be some flexibility for serious buyers, but this is already fairly priced for the value provided.
+**A:** The asking price of $250,000 reflects a discount relative to work completed and documentation quality. Reasonable offers may be considered from serious, qualified buyers.
 
-### **Q: How did you calculate the $250K price?**
-**A:** Based on:
-- 12-18 months of professional development work
-- Market rates for senior developers ($140K-$160K/year)
-- Comparable sales of similar technology assets ($200K-$400K)
-- Quality of architecture and documentation
-- Production-ready UI value
+### **Q: How did you calculate the price?**
+**A:** Cost-based + IP value, aligned with the scope of development (12–18 months), modern stack, enterprise docs, and infra readiness. See the repository for details.
 
 ### **Q: What payment methods do you accept?**
-**A:** Standard options:
-- Escrow.com (recommended)
-- Wire transfer
-- Bank transfer
-Buyer typically pays escrow fees (1-2% of sale price).
+**A:** Escrow.com (recommended) or wire transfer. Buyer typically pays escrow fees (1–2%).
 
 ### **Q: Can I pay in installments?**
-**A:** The standard terms are full payment at closing. However, payment structure can be discussed for serious buyers with verified credentials and references.
+**A:** The standard terms are full payment at closing. Alternative structures may be discussed with qualified buyers.
 
 ---
 
@@ -61,43 +52,24 @@ Buyer typically pays escrow fees (1-2% of sale price).
 ### **Q: What technology stack is used?**
 **A:** 
 - **Frontend:** React 18, TypeScript, Vite, Mantine UI
-- **Backend:** Python 3.11+, FastAPI, PostgreSQL
-- **AI/ML:** PyTorch, TensorFlow, scikit-learn
-- **Infrastructure:** Docker, Kubernetes, Helm
-- **Security:** Post-quantum cryptography (liboqs)
+- **Backend:** Python 3.11+, FastAPI, SQLAlchemy, Alembic
+- **AI/ML:** PyTorch, TensorFlow, scikit-learn (scaffolding)
+- **Infra:** Docker, Kubernetes, Helm, GitHub Actions
+- **Security:** liboqs (post-quantum), JWT auth (demo)
 
-See [TECH_STACK.md](./TECH_STACK.md) for complete details.
+See [TECH_STACK.md](./TECH_STACK.md) for details.
 
 ### **Q: Does the UI actually work?**
-**A:** Yes! The React UI is fully functional and production-ready. It currently connects to mock backend services for demonstration purposes. A comprehensive demo video will be sent via email after NDA execution.
+**A:** Yes. The React UI is production-quality and demo-ready. It connects to a mock/demo backend with JWT auth for demonstration.
 
 ### **Q: How much work is needed to complete this?**
-**A:** Estimated 6-12 months with a dedicated development team:
-- Core security engine: 3-6 months
-- Backend integration: 2-3 months
-- Testing & QA: 2-3 months
-- Production deployment: 1-2 months
+**A:** Estimated 6–12 months with a dedicated team to finalize core runtime, AI/ML, integrations, testing, production deployment, and security hardening. See [CURRENT_STATE_ASSESSMENT.md](./CURRENT_STATE_ASSESSMENT.md).
 
-### **Q: What programming languages do I need to know?**
-**A:**
-- **Python** - Backend development
-- **TypeScript/JavaScript** - Frontend development
-- **SQL** - Database work
-- **YAML** - Infrastructure configuration
+### **Q: Are there any security issues?**
+**A:** Prototype-level findings (e.g., dev secrets) are documented and should be remediated before any production use. CI gating and vault integration are recommended.
 
-### **Q: Is there any technical debt?**
-**A:** The codebase is well-organized and follows modern best practices. Some areas have TODOs and FIXMEs marking future work, but there's no significant technical debt. Code quality is professional and maintainable.
-
-### **Q: Are there any security vulnerabilities?**
-**A:** A comprehensive security audit was conducted. Some findings include:
-- Hardcoded secrets in development configs (easily fixed)
-- Mock authentication in demo backend (expected)
-- Testing credentials (not for production)
-
-These are normal for a prototype. Full security audit report available during due diligence.
-
-### **Q: What databases does it support?**
-**A:** PostgreSQL is the primary database with full SQLAlchemy ORM support. The architecture could support other databases, but PostgreSQL is configured and recommended.
+### **Q: What databases are supported?**
+**A:** PostgreSQL via SQLAlchemy. Others are possible with additional work.
 
 ---
 
@@ -105,199 +77,57 @@ These are normal for a prototype. Full security audit report available during du
 
 ### **Q: Can I see the code before buying?**
 **A:** Yes, after:
-1. Initial email conversation
+1. Initial email
 2. NDA execution
-3. Verification of serious intent
+3. Buyer qualification
 
-You'll get read-only access to the repository for 14-30 days for technical review.
+You’ll receive read-only access for 14–30 days.
 
 ### **Q: Is there a demo available?**
-**A:** Yes! After NDA execution, you'll receive:
-- **Pre-recorded video demonstration** of the working UI (sent via email)
-- Detailed walkthrough video showing all features
-- Architecture explanation video
-- Additional demo videos available upon request
-
-**Note:** All demos are provided as video files. No video calls required.
+**A:** Yes. **Pre-recorded demo videos** are sent via email after NDA.
 
 ### **Q: What documentation is included?**
-**A:** Extensive documentation (47KB+):
-- System architecture
-- API specifications
-- Deployment guides
-- Compliance frameworks (GDPR, HIPAA, SOX)
-- Code comments
-- README files
+**A:** Enterprise architecture docs, deployment guides, compliance frameworks, API specifications, and operational procedures.
 
-### **Q: Are there any dependencies on third-party services?**
-**A:** The code uses standard open-source libraries and frameworks. No proprietary third-party services are required. Threat intelligence feeds would need to be integrated (integration points are ready).
+### **Q: Any third-party dependencies?**
+**A:** Standard open-source libraries. Threat intel integrations and some enterprise connectors are documented but not implemented.
 
-### **Q: What's the code quality like?**
-**A:**
-- Professional naming conventions
-- Well-organized directory structure
-- Enterprise-grade patterns
-- Comprehensive documentation
-- 220+ test files (structure)
-- Follows industry best practices
+### **Q: What’s the code quality like?**
+**A:** Professional structure and naming, extensive docs, tests scaffolded (imports/infra require work to execute end-to-end).
 
 ---
 
 ## 🤝 Transaction Questions
 
 ### **Q: How long does the sale process take?**
-**A:** Typical timeline:
-- Week 1: Initial contact, NDA, documentation, demo video
-- Week 2-4: Due diligence and code review
-- Week 5-6: Negotiation and legal docs
-- Week 7-8: Closing and transfer
+**A:** Typical:
+- Week 1: Initial contact, NDA, docs, demo video
+- Weeks 2–4: Due diligence and code review
+- Weeks 5–6: Negotiation and legal docs
+- Weeks 7–8: Closing via escrow and transfer
 
-Total: 60-75 days for serious buyers
-
-### **Q: Do you do video calls or meetings?**
-**A:** **No.** All communication is handled via:
-- ✅ **Email** (primary method)
-- ✅ **Phone** (for serious buyers when needed)
-- ❌ No video calls
-- ❌ No in-person meetings
-
-This maintains anonymity while ensuring professional communication.
-
-### **Q: How do you demo the product without video calls?**
-**A:** All demos are provided as **pre-recorded video files** sent via email:
-- Full UI walkthrough video
-- Feature demonstration videos
-- Architecture explanation video
-- Code overview video (if requested)
-
-You can watch these videos at your convenience and ask questions via email or phone.
+### **Q: Do you do calls or meetings?**
+**A:** Communication is via **email** (primary) and **phone** for serious buyers. **No video calls**.
 
 ### **Q: What happens after purchase?**
-**A:** You receive:
-- Complete source code via Git transfer
-- All documentation
-- 30 days transition support (email/phone)
-- Email support for technical questions
-- Written explanations and documentation (no video calls)
+**A:** The **as-is** asset (code + docs + rights) is transferred. **No** post-sale onboarding, support, training, or services are included.
 
 ### **Q: Do you provide training?**
-**A:** Included in the sale:
-- Written documentation and guides
-- Q&A sessions via email or phone
-- Pre-recorded walkthrough videos
-- Email support (30 days)
-
-All training materials are provided in written or pre-recorded format.
-
-### **Q: What if I find issues after purchase?**
-**A:** This is an **as-is sale** with transparent disclosure of current state. No warranties are provided. However, I commit to:
-- Honest assessment of current state
-- Comprehensive documentation
-- 30 days transition support via email/phone
-- Answering questions about the code I wrote
+**A:** **No.** This is an as-is technology asset sale without ongoing services.
 
 ### **Q: Will you sign a non-compete?**
-**A:** Reasonable non-compete terms can be negotiated as part of the sale agreement. I'm not building a competing cybersecurity platform.
+**A:** Reasonable terms may be discussed during legal documentation.
 
-### **Q: Can we communicate anonymously?**
-**A:** Yes! The transaction is designed to maintain seller anonymity:
-- All communication via email or phone
-- No video calls or face-to-face meetings required
-- Professional process without identity disclosure
-- This protects both parties
+### **Q: Does anonymity affect the legal process?**
+**A:** No. Identity can be verified through escrow/legal counsel as needed with day-to-day anonymity maintained.
 
 ---
 
-## 👥 Buyer Qualification Questions
+## 📞 Contact
 
-### **Q: Who is the ideal buyer?**
-**A:**
-- Cybersecurity product companies
-- System integrators
-- Tech companies with dev teams
-- Private equity firms with portfolio companies
-- Companies wanting to accelerate their security roadmap
-
-### **Q: Do I need a development team?**
-**A:** **Yes.** This requires 6-12 months of development to complete. Ideal buyer has:
-- 2-5 software engineers
-- Python/TypeScript expertise
-- DevOps capabilities
-- Budget for completion
-
-### **Q: What if I'm a solo developer like you?**
-**A:** Unless you have 6-12 months to dedicate to completion, this may not be the right fit. This asset is best for companies with teams.
-
-### **Q: Can I hire you to complete it?**
-**A:** Post-sale consulting can be discussed separately, but is not included in the purchase price or guaranteed.
+**Email:** `shea83409@gmail.com`  
+Include: company, role, intended use case, team, budget, and timeline.
 
 ---
 
-## 🔒 Legal Questions
-
-### **Q: What license is the code under?**
-**A:** Currently MIT License. Upon sale, all rights transfer completely to the buyer. You can relicense however you want.
-
-### **Q: Are there any IP issues or conflicts?**
-**A:** No. All code was developed independently by me. No third-party IP conflicts. Clean ownership transfer.
-
-### **Q: Do I get the brand name "CYLIX V2"?**
-**A:** Yes, the brand name transfers with the sale. You can keep it or rebrand.
-
-### **Q: What about liability?**
-**A:** Buyer assumes all liability for use of the software. Seller provides no warranties. This is standard for technology asset sales.
-
-### **Q: Does your anonymity affect the legal process?**
-**A:** No. Legal documents can be executed with appropriate identity verification through escrow services or legal counsel, while maintaining practical anonymity in day-to-day communications.
-
----
-
-## 📞 Contact Questions
-
-### **Q: How do I get started?**
-**A:** Email me at: **shea83409@gmail.com**
-
-Include:
-- Your company name
-- Your role
-- Intended use case
-- Development resources available
-- Any specific questions
-
-### **Q: How quickly do you respond?**
-**A:** Within 24-48 hours for serious inquiries.
-
-### **Q: Can we schedule a call?**
-**A:** Phone calls are available for serious buyers after initial email exchange and verification. However:
-- ✅ Email is preferred for most communication
-- ✅ Phone available for important discussions
-- ❌ No video calls
-- ❌ No in-person meetings
-
-### **Q: Why no video calls?**
-**A:** I prefer to maintain anonymity while conducting a professional transaction. All necessary information can be communicated via:
-- Pre-recorded demo videos (emailed to you)
-- Comprehensive written documentation
-- Email correspondence
-- Phone calls when necessary
-
-This approach is efficient and protects both parties.
-
----
-
-## 🎯 Still Have Questions?
-
-**Email:** shea83409@gmail.com
-
-I respond to all serious inquiries within 24-48 hours via email.
-
-**Communication Methods:**
-- ✅ Email (primary and preferred)
-- ✅ Phone (available for qualified buyers)
-- ❌ Video calls (not available)
-- ❌ In-person meetings (not available)
-
----
-
-*Last Updated: October 20, 2025*  
-*Repository: https://github.com/CYLIX-V2/strategic-tech-asset-for-sale*
+*As-is sale. See [CURRENT_STATE_ASSESSMENT.md](./CURRENT_STATE_ASSESSMENT.md) for status details.*
