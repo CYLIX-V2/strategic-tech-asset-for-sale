@@ -34,19 +34,19 @@
 - React 18 with TypeScript
 - Vite build system
 - Mantine UI component library
-- Modern, production-ready codebase
+- Production-quality codebase for demos
 
 **Backend:**
 - Python 3.11+ with FastAPI
 - SQLAlchemy ORM
 - Alembic migrations
-- JWT authentication framework for demos
+- JWT authentication (demo)
 
 **AI/ML Foundation:**
 - PyTorch integration points
 - TensorFlow scaffolding
 - scikit-learn implementations
-- ML model training pipelines (structure)
+- ML pipelines (structure)
 
 **Infrastructure:**
 - Docker & Docker Compose configurations
@@ -57,9 +57,8 @@
 
 **Security:**
 - Post-quantum cryptography library (liboqs)
-- JWT authentication system (demo)
-- RBAC framework (UI)
-- Security hardening scripts
+- JWT demo auth
+- RBAC (UI)
 
 ### **Documentation**
 
@@ -73,7 +72,7 @@
 - Security hardening guides
 
 **Compliance Frameworks:**
-- GDPR compliance framework (~7.5KB)
+- GDPR framework (~7.5KB)
 - HIPAA considerations
 - SOX controls documentation
 - ISO 27001 alignment
@@ -89,21 +88,21 @@
 
 ```
 cylix_v2/
-├── frontend/          # React UI (production-quality)
-├── apps/web_ui_backend/  # Auth endpoints implemented in FastAPI
-├── backend/           # FastAPI frameworks & services
-├── core/              # 537 core modules
-├── ai_modules/        # 76 AI/ML modules
-├── agents/            # Security agents framework
-├── api/               # API definitions
-├── models/            # Database models
-├── tests/             # 220+ test files (scaffolded)
-├── deploy/            # Deployment configs
-├── k8s/               # Kubernetes manifests
-├── docs/              # Documentation
-├── scripts/           # Automation scripts
-├── compliance/        # Regulatory frameworks
-└── config/            # Configuration templates
+├── frontend/                    # React UI (production-quality)
+├── apps/web_ui_backend/         # FastAPI auth endpoints
+├── backend/                     # FastAPI frameworks & services
+├── core/                        # 537 core modules
+├── ai_modules/                  # 76 AI/ML modules
+├── agents/                      # Security agents framework
+├── api/                         # API definitions
+├── models/                      # Database models
+├── tests/                       # 220+ test files (scaffolded)
+├── deploy/                      # Deployment configs
+├── k8s/                         # Kubernetes manifests
+├── docs/                        # Documentation
+├── scripts/                     # Automation scripts
+├── compliance/                  # Regulatory frameworks
+└── config/                      # Configuration templates
 ```
 
 ### **Working Components (for Demos)**
@@ -130,9 +129,7 @@ cylix_v2/
 
 ### **Asking Price: $250,000 USD**
 
-### **Valuation Rationale**
-
-Cost-based + IP value; see repository README and Current State Assessment for detailed methodology and scope.
+Cost-based + IP value aligned with work completed; see README and Current State Assessment.
 
 ---
 
@@ -149,8 +146,8 @@ Cost-based + IP value; see repository README and Current State Assessment for de
 
 1. **NDA Execution** (Day 1)
 2. **Documentation Sharing** (Day 1–3) – Assessment, specs, read-only repo access
-3. **Demo Video** (Day 3–7) – Pre-recorded UI demo sent via email
-4. **Due Diligence** (Day 7–30)
+3. **Screenshot Set** (Day 3–7) – Sanitized screenshots shared via repo/email per [SCREENSHOTS.md](./SCREENSHOTS.md)
+4. **Due Diligence** (Day 7–30) – Technical/code review via read-only access
 5. **Negotiation** (Day 30–45)
 6. **Legal Documentation** (Day 45–60)
 7. **Closing** (Day 60–75) – Escrow, transfer, handover
@@ -158,7 +155,7 @@ Cost-based + IP value; see repository README and Current State Assessment for de
 ### **Communication Preferences**
 
 - ✅ All communication via **email** (primary) and **phone** for serious buyers
-- ✅ UI demos provided as **pre-recorded video files**
+- ✅ Demos provided as **screenshots only**
 - ❌ **No video calls** or in-person meetings
 - ❌ **No post-sale onboarding/support/training**
 
@@ -220,3 +217,5 @@ Include in your first email:
 - **[TECH_STACK.md](./TECH_STACK.md)** – Detailed technical specifications
 - **[CODE_SAMPLES.md](./CODE_SAMPLES.md)** – Code examples
 - **[FAQ](./FAQ.md)** – Common questions
+- **[SCREENSHOTS.md](./SCREENSHOTS.md)** – Screenshot list and guidance
+- **[UNIFIED_SSO_SETUP.md](./UNIFIED_SSO_SETUP.md)** – SSO unification plan
