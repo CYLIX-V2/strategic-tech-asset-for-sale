@@ -61,7 +61,7 @@ Full detail: **[CURRENT_STATE_ASSESSMENT.md](./CURRENT_STATE_ASSESSMENT.md)**
 - **Deliverables:** Complete source code, documentation, assets in repo
 - **Support/Onboarding:** **None**. No post-sale onboarding, training, or services
 - **Communication:** Email (primary) and phone for serious buyers. **No video calls**
-- **Demos:** Pre-recorded demo videos provided via email after NDA
+- **Demos:** **Screenshots-only**. See **[SCREENSHOTS.md](./SCREENSHOTS.md)**
 
 ### What’s Included
 
@@ -95,10 +95,20 @@ Full detail: **[CURRENT_STATE_ASSESSMENT.md](./CURRENT_STATE_ASSESSMENT.md)**
 
 ---
 
+## 🔐 SSO Unification Plan (Grafana + Cylix UI)
+
+Grafana and Cylix UI logins/front-ends can be unified via **OIDC SSO** using Keycloak and oauth2-proxy. See **[UNIFIED_SSO_SETUP.md](./UNIFIED_SSO_SETUP.md)** for a concrete implementation plan for:
+- Keycloak realm + clients (`grafana`, `cylix-ui`)
+- Grafana OIDC config
+- oauth2-proxy in front of Cylix UI
+- NGINX reverse proxy and cookie domain setup
+
+---
+
 ## 📧 Contact & Process
 
 - **Contact:** shea83409@gmail.com
-- **Initial:** Email inquiry → NDA → documentation package + demo videos
+- **Initial:** Email inquiry → NDA → documentation package + screenshot set
 - **Due Diligence:** Read-only repo access for 14–30 days
 - **Closing:** Escrow, IP transfer, repository handover
 
@@ -115,6 +125,8 @@ If you have pre-NDA questions, see the issue: “Questions before NDA” (or ema
 - **[TECH_STACK.md](./TECH_STACK.md)** – Detailed technical specifications
 - **[CODE_SAMPLES.md](./CODE_SAMPLES.md)** – Real code examples (frontend + backend)
 - **[FAQ.md](./FAQ.md)** – Common questions answered
+- **[SCREENSHOTS.md](./SCREENSHOTS.md)** – Screenshot list and guidance
+- **[UNIFIED_SSO_SETUP.md](./UNIFIED_SSO_SETUP.md)** – SSO unification plan
 
 ---
 
