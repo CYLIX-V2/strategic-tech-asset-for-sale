@@ -13,7 +13,7 @@
 ## 💼 What's Included in the Acquisition
 
 ### **Complete Source Code**
-- **Size:** 2.9GB of production code
+- **Size:** ~2.9GB of production code
 - **Languages:** Python 3.11+, TypeScript/React 18
 - **Components:** Frontend, Backend, Infrastructure, Documentation
 - **License:** MIT License (full ownership transfer)
@@ -40,7 +40,7 @@
 - Python 3.11+ with FastAPI
 - SQLAlchemy ORM
 - Alembic migrations
-- JWT authentication framework
+- JWT authentication framework for demos
 
 **AI/ML Foundation:**
 - PyTorch integration points
@@ -57,13 +57,13 @@
 
 **Security:**
 - Post-quantum cryptography library (liboqs)
-- JWT authentication system
-- RBAC framework
+- JWT authentication system (demo)
+- RBAC framework (UI)
 - Security hardening scripts
 
 ### **Documentation**
 
-**Enterprise Documentation (47KB+):**
+**Enterprise Documentation (~47KB+):**
 - System architecture diagrams
 - Component interaction flows
 - API specifications
@@ -73,7 +73,7 @@
 - Security hardening guides
 
 **Compliance Frameworks:**
-- GDPR compliance framework (7.5KB)
+- GDPR compliance framework (~7.5KB)
 - HIPAA considerations
 - SOX controls documentation
 - ISO 27001 alignment
@@ -81,7 +81,6 @@
 
 **Development Documentation:**
 - README files
-- Code comments
 - Setup instructions
 - Quick start guides
 - Test documentation
@@ -90,28 +89,29 @@
 
 ```
 cylix_v2/
-├── frontend/          # React UI (production-ready)
-├── backend/           # FastAPI services
+├── frontend/          # React UI (production-quality)
+├── apps/web_ui_backend/  # Auth endpoints implemented in FastAPI
+├── backend/           # FastAPI frameworks & services
 ├── core/              # 537 core modules
 ├── ai_modules/        # 76 AI/ML modules
 ├── agents/            # Security agents framework
 ├── api/               # API definitions
 ├── models/            # Database models
-├── tests/             # 220+ test files
+├── tests/             # 220+ test files (scaffolded)
 ├── deploy/            # Deployment configs
 ├── k8s/               # Kubernetes manifests
-├── docs/              # 181 documentation files
+├── docs/              # Documentation
 ├── scripts/           # Automation scripts
 ├── compliance/        # Regulatory frameworks
 └── config/            # Configuration templates
 ```
 
-### **Working Components**
+### **Working Components (for Demos)**
 
 ✅ **Fully Functional:**
 - React UI with live demo capability
-- FastAPI backend (mock services)
-- Authentication system
+- FastAPI demo backend with JWT auth (`mock_backend_auth.py`)
+- Web UI auth endpoints (`apps/web_ui_backend/api/v1/endpoints/auth/fastapi_impl.py`)
 - Docker containerization
 - Database migrations
 - CI/CD pipeline structure
@@ -132,35 +132,7 @@ cylix_v2/
 
 ### **Valuation Rationale**
 
-**Development Cost Calculation:**
-
-| Role | Rate | Time | Cost |
-|------|------|------|------|
-| Senior Python Developer | $150K/year | 18 months | $225,000 |
-| React Developer | $140K/year | 12 months | $140,000 |
-| DevOps Engineer | $160K/year | 6 months | $80,000 |
-| Technical Writer | $90K/year | 3 months | $22,500 |
-| **Total Development Cost** | | | **$467,500** |
-
-**Market Comparables:**
-- Similar cybersecurity frameworks: $300K-$500K
-- Advanced prototypes (12+ months dev): $200K-$400K
-- Enterprise SaaS codebases: $150K-$350K
-
-**Fair Market Value: $250,000** (47% discount on development costs)
-
-### **Payment Terms**
-
-**Standard Terms:**
-- Full payment at closing
-- Escrow.com recommended
-- Wire transfer or escrow service
-- Buyer pays escrow fees (typically 1-2%)
-
-**Negotiable:**
-- Payment structure (discuss via email)
-- Transition assistance scope
-- Timeline flexibility
+Cost-based + IP value; see repository README and Current State Assessment for detailed methodology and scope.
 
 ---
 
@@ -176,67 +148,24 @@ cylix_v2/
 ### **Closing Process**
 
 1. **NDA Execution** (Day 1)
-   - Mutual confidentiality agreement
-   - Protect both parties
-
-2. **Documentation Sharing** (Day 1-3)
-   - Full current state assessment
-   - Technical specifications
-   - Code repository access (read-only)
-
-3. **Demo Video** (Day 3-7)
-   - Pre-recorded UI demonstration video sent via email
-   - Detailed walkthrough of functionality
-   - Architecture explanation
-   - Additional videos available upon request
-
-4. **Due Diligence** (Day 7-30)
-   - Technical review via email
-   - Code inspection
-   - Documentation verification
-   - Q&A via email or phone
-
-5. **Negotiation** (Day 30-45)
-   - All communication via email or phone
-   - Final pricing
-   - Terms adjustment
-   - Asset transfer details
-
-6. **Legal Documentation** (Day 45-60)
-   - Asset Purchase Agreement
-   - IP assignment documents
-   - Escrow setup
-
-7. **Closing** (Day 60-75)
-   - Payment via escrow
-   - Code transfer
-   - Documentation handover
-   - Transition support begins
+2. **Documentation Sharing** (Day 1–3) – Assessment, specs, read-only repo access
+3. **Demo Video** (Day 3–7) – Pre-recorded UI demo sent via email
+4. **Due Diligence** (Day 7–30)
+5. **Negotiation** (Day 30–45)
+6. **Legal Documentation** (Day 45–60)
+7. **Closing** (Day 60–75) – Escrow, transfer, handover
 
 ### **Communication Preferences**
 
-**Seller maintains anonymity:**
-- ✅ All communication via **email** (shea83409@gmail.com)
-- ✅ Phone calls available for serious buyers
-- ✅ **No video calls or in-person meetings**
+- ✅ All communication via **email** (primary) and **phone** for serious buyers
 - ✅ UI demos provided as **pre-recorded video files**
-- ✅ Technical Q&A handled via email or phone
-
-**This protects both parties while maintaining professionalism.**
+- ❌ **No video calls** or in-person meetings
+- ❌ **No post-sale onboarding/support/training**
 
 ### **Post-Closing**
 
-**Included:**
-- ✅ 30 days transition assistance (email/phone)
-- ✅ Email support for technical questions
-- ✅ Documentation clarification
-- ✅ Written explanations and diagrams (no video calls required)
-
-**Not Included:**
-- ❌ Ongoing development work
-- ❌ Feature implementation
-- ❌ Bug fixes (code sold as-is)
-- ❌ Production deployment assistance
+- Asset is transferred **as-is** with code and documentation
+- **No** ongoing support, onboarding, training, or services included
 
 ---
 
@@ -244,102 +173,50 @@ cylix_v2/
 
 ### **As-Is Sale**
 
-- Asset sold in current state
-- No warranties expressed or implied
-- Transparent disclosure of current functionality
-- Buyer assumes all risks and liabilities
+- Asset sold in current state; no warranties expressed or implied
+- Full transparency of current functionality and gaps provided
+- Buyer assumes all risks and responsibilities post-closing
 
 ### **IP Assignment**
 
 - Complete transfer of copyright
 - Full source code ownership
 - Brand name transfer ("CYLIX V2")
-- All design rights included
-- Documentation copyright transfer
+- All design/documentation rights
 
 ### **Confidentiality**
 
 - NDA required before code access
 - Protection of proprietary information
 - Non-disclosure of transaction details
-- Mutual confidentiality obligations
-- **Seller anonymity maintained throughout process**
+- Seller anonymity maintained
 
 ### **Liability Limitation**
 
-- Seller not liable for buyer's use
-- No responsibility for deployment issues
-- Buyer responsible for compliance
-- No guarantees of specific outcomes
-
----
-
-## 🚫 What's NOT Included
-
-**Explicitly Excluded:**
-
-- ❌ Active customers or users
-- ❌ Revenue or business operations
-- ❌ Hosted infrastructure
-- ❌ Third-party API keys or credentials
-- ❌ Live threat intelligence feeds
-- ❌ Production database with data
-- ❌ Domain names or web hosting
-- ❌ Ongoing support beyond 30 days
-- ❌ Video calls or in-person meetings
+- Seller not liable for buyer’s use or outcomes
+- Buyer responsible for compliance, deployment, and security hardening
 
 ---
 
 ## 📞 Contact Information
 
-### **Serious Inquiries**
+**Email:** shea83409@gmail.com  
+**Response Time:** 24–48 hours
 
-**Email:** shea83409@gmail.com (Primary)  
-**Phone:** Available upon request for qualified buyers
-
-**Response Time:** Within 24-48 hours
-
-**Communication Method:** Email preferred, phone available for serious discussions
-
-### **Initial Inquiry Should Include:**
-
-1. Your company name and website
-2. Your role/title
-3. Intended use case
-4. Available development resources
-5. Timeline expectations
-6. Budget confirmation
-
-### **What Happens Next:**
-
-1. Initial email exchange
-2. NDA execution
-3. Full documentation package sent
-4. Demo video emailed
-5. Code repository access granted
-6. Q&A via email/phone
-7. Offer and negotiation
-8. Closing
-
-**Note:** All communication handled professionally via email and phone. No video calls or face-to-face meetings required.
-
----
-
-## ❓ Frequently Asked Questions
-
-See [FAQ.md](./FAQ.md) for common questions and answers.
+Include in your first email:
+- Company name and website
+- Role/title
+- Intended use case
+- Available development resources
+- Timeline expectations
+- Budget confirmation
 
 ---
 
 ## 📄 Supporting Documents
 
-- **[Main README](./README.md)** - Overview and executive summary
-- **[Technology Stack](./TECH_STACK.md)** - Detailed technical specifications
-- **[Code Samples](./CODE_SAMPLES.md)** - Quality examples
-- **[FAQ](./FAQ.md)** - Common questions
-
----
-
-*Last Updated: October 20, 2025*  
-*Contact: shea83409@gmail.com*  
-*Repository: https://github.com/CYLIX-V2/strategic-tech-asset-for-sale*
+- **[Main README](./README.md)** – Overview and executive summary
+- **[CURRENT_STATE_ASSESSMENT.md](./CURRENT_STATE_ASSESSMENT.md)** – Honest technical state
+- **[TECH_STACK.md](./TECH_STACK.md)** – Detailed technical specifications
+- **[CODE_SAMPLES.md](./CODE_SAMPLES.md)** – Code examples
+- **[FAQ](./FAQ.md)** – Common questions
